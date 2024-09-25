@@ -8,6 +8,7 @@ def EnsamblarBf(XYZ, IEN):
     M = IEN.rows
     Bf = sp.zeros(2*N, M)
     
+    # comentario
     '''for i in range (Bf.rows):
         nodo = i + 1
         for j in range (IEN.rows):
